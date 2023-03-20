@@ -1,0 +1,31 @@
+
+.text-color-white {
+  color : white !important;
+}
+
+.bg-color-1 {
+  background-color: #240E32;
+  display: flex;
+  position: absolute;
+  top:0px;
+  left : 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-image-1 {
+  background-color: black;
+  display: flex;
+  position: absolute;
+  top:0px;
+  left : 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/sp1.jpeg');
+  background-size : cover;
+  opacity: 0.3;
+}
+
+.bg-color-nav {
+  background-color: rgba(0,0,0,0.3) !important;
+}

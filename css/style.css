@@ -1,0 +1,17 @@
+/*reset*/
+@import "reset.css";
+
+/*basic*/
+@import "nav.css";
+
+/*menu*/
+@import "home.css";
+@import "intro.css";
+@import "fac.css";
+@import "direc.css";
+@import "reser.css";
+
+
+html{
+    font-size: 25px;
+}
