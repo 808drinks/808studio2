@@ -1,11 +1,4 @@
 
-.fac-back {
-    background-image: url("../intro-img/main-bg.jpg");
-    background-size: cover;
-    width: 100%;
-    min-height: 100%;
-    opacity: 0.5;
-}
 
 @media screen and (min-width: 1200px) {
     .fac {
@@ -88,7 +81,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: bottom;
-    margin-top : 180px;
+    margin-top : 11rem;
 }
 
 .fac-inner-title1 {
@@ -96,10 +89,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 500;
     color : white;
-    margin-bottom : 12px;
+    margin-bottom : 0.5rem;
 }
 
 .fac-inner-title1-sub {
@@ -107,10 +100,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.1rem;
     font-weight: 200;
     color : white;
-    margin-bottom : 10px;
+    margin-bottom : 0.5rem;
 }
 
 .fac-inner-title2 {
@@ -119,12 +112,12 @@
     justify-content: left;
     align-items: center;
     text-align: left;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 200;
     color : white;
-    margin-top : 26px;
-    margin-bottom : 22px;
-    margin-left : 60px;
+    margin-top : 1rem;
+    margin-bottom : 0.9rem;
+    margin-left : 2.1rem;
 }
 
 
@@ -134,9 +127,9 @@
     width: 100vw;
     justify-content: space-around;
     align-items: center;
-    margin : 0px 25px;
-    padding : 15px;
-    margin-bottom : 70px;
+    margin : 0px 1rem;
+    padding : 0.6rem;
+    margin-bottom : 2.8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -154,10 +147,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size : 24px;
+    font-size : 1rem;
     font-weight: 200;
     color : white;
-    padding : 15px 15px;
+    padding : 0.6rem;
     background-color: rgba(0,0,0,0.3);
 }
 .fac-inner-photoblock img {
@@ -176,7 +169,7 @@
 
 
 .margin-top-10px {
-    margin-top : 10px;
+    margin-top : 0.4rem;
 }
 
 @media screen and (min-width: 769px) {
@@ -192,34 +185,34 @@
 }
 
 .margin-bottom-25px {
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
 }
 
 .margin-bottom-50px {
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
 }
 
 .margin-bottom-75px {
-    margin-bottom: 75px;
+    margin-bottom: 3rem;
 }
 
 .margin-bottom-200px {
-    margin-bottom: 200px;
+    margin-bottom: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
     .fac-inner-title1 {
-        font-size: 24px;
+        font-size: 1.3rem;
     }
     .fac-inner-title1-sub {
-        font-size: 20px;
+        font-size: 1rem;
     }
     .fac-inner-title2 {
-        font-size: 24px;
-        margin-bottom : 5px;
+        font-size: 1.3rem;
+        margin-bottom : 0.2rem;
     }
     .fac-inner-photoblock-block {
-        font-size: 20px;
+        font-size: 1rem;
     }
 
 
