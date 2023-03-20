@@ -12,9 +12,17 @@
 @import "reser.css";
 
 
+/* 전체적용 */
+
 html{
     font-size: 25px;
 }
 body {
     overflow-x: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    html {
+      font-size: 20px;
+    }
+    }
