@@ -1,3 +1,6 @@
+body {
+    background-color: #240E32;
+}
 
 .block2 {
     display: block;
@@ -5,10 +8,15 @@
     min-height: 100vh;
     margin : 0px;
     padding : 0px;
-    background-color: #240E32;
 
 }
 
+
+.intro {
+    display: block;
+    width: 100vw;
+    height: auto;
+}
 
 .bg-color-2 {
     display: block;
@@ -21,12 +29,13 @@
 
 .intro-back {
     background-image: url("../intro-img/main-bg.jpg");
+    background-color: rgba(0,0,0,1);
     background-size: cover;
-    width: 100%;
-    min-height: 100%;
-    opacity: 0.5;
+    width : auto;
+    height: 100%;
+    box-sizing: border-box;
 }
-
+/* 
 @media screen and (min-width: 1200px) {
     .intro {
         height: 1080vh;
@@ -55,9 +64,9 @@
     .intro {
         height: 1100vh;
     }
-}
+} */
 
-@media screen and (min-width: 700px) and (max-width: 768px) {
+/* @media screen and (min-width: 700px) and (max-width: 768px) {
     .intro {
         height: 1510vh;
     }
@@ -98,7 +107,7 @@
         height: 1380vh;
     }
 }
-
+ */
 
 .intro-inner {
     display: flex;
@@ -244,6 +253,10 @@
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
     }
+}
+
+.photo-test-block {
+    display: block;
 }
 
 .intro-photo-computer {
@@ -781,4 +794,8 @@
         margin-bottom : 0vw;
     }
 
+}
+
+.margin-bottom-5rem {
+    padding-bottom :5rem;
 }

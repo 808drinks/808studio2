@@ -88,3 +88,15 @@
 .margin-bottom-1rem {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .wid-768up {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .wid-768down {
+        display: none;
+    }
+    }

@@ -21,7 +21,12 @@ font-family: 'Noto Sans KR' , 'Montserrat', sans-serif;
 
 /* 하단 네비게이션 */
 
-
+.font-size-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
 
 .bottom {
   display: flex;
