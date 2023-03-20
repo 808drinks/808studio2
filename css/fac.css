@@ -1,0 +1,226 @@
+
+.fac-back {
+    background-image: url("../intro-img/main-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1200px) {
+    .fac {
+        height: 1220vh;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1199px)  {
+    .fac {
+        height: 1060vh;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1099px)  {
+    .fac {
+        height: 1030vh;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 999px)  {
+    .fac {
+        height: 990vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 899px)  {
+    .fac {
+        height: 910vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 799px)  {
+    .fac {
+        height: 860vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px)  {
+    .fac {
+        height: 2200vh;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 699px)  {
+    .fac {
+        height: 2180vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 639px)  {
+    .fac {
+        height: 2130vh;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 599px)  {
+    .fac {
+        height: 2020vh;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px)  {
+    .fac {
+        height: 1900vh;
+    }
+}
+
+@media screen and (max-width: 499px)  {
+    .fac {
+        height: 1760vh;
+    }
+}
+
+.fac-inner {
+    display: flex;
+    position : absolute;
+    top : 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+    margin-top : 180px;
+}
+
+.fac-inner-title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color : white;
+    margin-bottom : 12px;
+}
+
+.fac-inner-title1-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    color : white;
+    margin-bottom : 10px;
+}
+
+.fac-inner-title2 {
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 200;
+    color : white;
+    margin-top : 26px;
+    margin-bottom : 22px;
+    margin-left : 60px;
+}
+
+
+.fac-inner-photoblock {
+    display: flex;
+    max-height: 1000px;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    margin : 0px 25px;
+    padding : 15px;
+    margin-bottom : 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .fac-inner-photoblock {
+        flex-direction: column;
+        justify-content: space-between;
+        }
+}
+
+
+.fac-inner-photoblock-block {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size : 24px;
+    font-weight: 200;
+    color : white;
+    padding : 15px 15px;
+    background-color: rgba(0,0,0,0.3);
+}
+.fac-inner-photoblock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+@media screen and (max-width: 768px) {
+    .fac-inner-photoblock-block {
+        width: 90%;
+        height: 95%;
+    }
+}
+  
+
+
+.margin-top-10px {
+    margin-top : 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .size-768-down {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .size-768-up {
+        display: none;
+    }
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-75px {
+    margin-bottom: 75px;
+}
+
+.margin-bottom-200px {
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .fac-inner-title1 {
+        font-size: 24px;
+    }
+    .fac-inner-title1-sub {
+        font-size: 20px;
+    }
+    .fac-inner-title2 {
+        font-size: 24px;
+        margin-bottom : 5px;
+    }
+    .fac-inner-photoblock-block {
+        font-size: 20px;
+    }
+
+
+}

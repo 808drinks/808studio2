@@ -87,9 +87,9 @@
                   시설소개
                 </a>
                 <ul class="dropdown-menu text-white">
-                  <li><a class="dropdown-item" href="fac.html/#fac1">내부사진</a></li>
+                  <li><a class="dropdown-item" href="fac.html">내부사진</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="fac.html/#fac2">부대시설</a></li>
+                  <li><a class="dropdown-item" href="fac.html#fac2">부대시설</a></li>
                 </ul>
               </li>
             </li>
@@ -144,3 +144,32 @@
 </body>
 
 </html>
+
+<!-- 10-2 카카오 채팅 이동용-->
+<div class="intro-kakaochat-button button-sizing" id="kakao-talk-channel-chat-button"
+data-channel-public-id="_zEHAxj"
+-title="consult"
+data-size="large"
+data-color="yellow"
+data-shape="pc"
+data-support-multiple-densities="true">
+</div>
+<script>
+  window.kakaoAsyncInit = function() {
+    Kakao.Channel.createChatButton({
+      container: '#kakao-talk-channel-chat-button',
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.channel.min.js';
+    js.integrity = 'sha384-MEvxc+j9wOPB2TZ85/N6G3bt3K1/CgHSGNSM+88GoytFuzP4C9szmANjTCNfgKep';
+    js.crossOrigin = 'anonymous';
+    fjs.parentNode.insertBefore(js, fjs);
+  })(document, 'script', 'kakao-js-sdk');
+</script>
+
+
