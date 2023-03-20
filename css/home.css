@@ -1,3 +1,29 @@
+
+.bg-color-1 {
+    background-color: #240E32;
+    display: block;
+    position: absolute;
+    top:0px;
+    left : 0px;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bg-image-1 {
+    background-color: black;
+    display: block;
+    position: absolute;
+    top:0px;
+    left : 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/sp1.jpeg');
+    background-size : cover;
+    opacity: 0.3;
+  }
+  
+
+
 .section-start {
     display: flex;
     position :absolute;
@@ -9,8 +35,44 @@
     align-items: center;
 
 }
+.block1 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    margin : 0px;
+    padding : 0px;
+}
+
+.test1111{
+    display: block;
+    background-color: red;
+}
+
+
+
 
 
 .btn-color-1 {
+    background-color: rgba(255,255,255,1);
+    color : #240E32;
+    border : none;
+}
+
+.btn-color-2 {
     background-color: #240E32;
-  }
+    opacity: 0.9;
+    border : none;
+}
+
+.text-size-1-8rem {
+    font-size: 1.8rem;
+}
+
+.text-size-2rem {
+    font-size: 2rem;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
+}

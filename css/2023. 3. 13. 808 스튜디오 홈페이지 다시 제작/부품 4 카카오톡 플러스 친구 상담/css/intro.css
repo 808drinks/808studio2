@@ -1,0 +1,518 @@
+
+
+.intro-back {
+    background-image: url("../intro-img/서울댄스연습실.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro {
+        height: 980vh;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .intro {
+        height: 900vh;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 999px) {
+    .intro {
+        height: 820vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+    .intro {
+        height: 760vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .intro {
+        height: 1260vh;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 699px) {
+    .intro {
+        height: 1180vh;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 679px) {
+    .intro {
+        height: 1280vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 649px) {
+    .intro {
+        height: 1240vh;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 599px) {
+    .intro {
+        height: 1180vh;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 539px) {
+    .intro {
+        height: 1180vh;
+    }
+}
+
+@media screen  and (max-width: 499px) {
+    .intro {
+        height: 1140vh;
+    }
+}
+
+
+.intro-inner {
+    display: flex;
+    position : absolute;
+    top : 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+}
+
+/* 반응형 디자인*/
+  
+@media screen and (min-width: 1000px) {
+    .intro-text1 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 250px;
+        width: 100%;
+        padding-left : 110px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text1 {
+        font-weight: 500;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 250px;
+        width: 100%;
+        padding-left : 110px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text2 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text2 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text3 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 24px;
+        display: flex;
+        width: 190px;
+        justify-content: space-between;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text3 {
+        font-weight: 50;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        margin-top : 24px;
+        padding : 10px;
+        display: flex;
+        width: 190px;
+        justify-content: space-between;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text4 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text4 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text5 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        padding-bottom : 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text5 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        padding-bottom : 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+.intro-photo-computer {
+    padding-top : 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    width: 100vw;
+    padding : 80px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-computer img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+  }
+
+.intro-photo-mobile {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 2500px;
+    width: 100vw;
+    padding : 30px 60px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-mobile img {
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+@media screen and (min-width: 769px) {
+    .intro-photo-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-photo-computer {
+        display: none;
+    }
+}
+
+
+.intro-photo-coupon-computer {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1000px;
+    width: 60vw;
+    padding : 30px 60px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-coupon-computer img {
+    width: 98%;
+    max-width: 1200px;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+
+.intro-photo-coupon-mobile {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1000px;
+    width: 60vw;
+    padding : 30px 60px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-coupon-mobile img {
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+@media screen and (min-width: 769px) {
+    .intro-photo-coupon-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-photo-coupon-computer {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .intro-text6 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text6 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text7 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text7 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        padding-left : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text8 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        padding-right : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: right;
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text8 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        padding-right : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: right;
+
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .intro-computer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .intro-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .intro-mobile-big {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .intro-mobile-small {
+        display: none;
+    }
+}
+
+
+
+.bold-text {
+    font-weight: 600;
+}
+
+
+/* Scroll Animation (sa, 스크롤 애니메이션) */
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+/* 아래에서 위로 페이드 인 */
+.sa-up {
+    transform: translate(0, 100px);
+}
+
+      /* 위에서 아래로 페이드 인 */
+      .sa-down {
+        transform: translate(0, -100px);
+      }
+      /* 왼쪽에서 오른쪽으로 페이드 인 */
+      .sa-right {
+        transform: translate(-100px, 0);
+      }
+      /* 오른쪽에서 왼쪽으로 페이드 인 */
+      .sa-left {
+        transform: translate(100px, 0);
+      }
+      /* 왼쪽으로 회전하면서 페이드 인 */
+      .sa-rotateL {
+        transform: rotate(180deg);
+      }
+      /* 오른쪽으로 회전하면서 페이드 인 */
+      .sa-rotateR {
+        transform: rotate(-180deg);
+      }
+      /* 작아진 상태에서 커지면서 페이드 인 */
+      .sa-scaleUp {
+        transform: scale(.5);
+      }
+      /* 커진 상태에서 작아지면서 페이드 인 */
+      .sa-scaleDown {
+        transform: scale(1.5);
+      }
+
+.sa.show {
+    opacity: 1;
+    transform: none;
+}
+
+
+/* 기본 나타나기 애니메이션 */
+@keyframes slide-down {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-down {
+    animation-name: slide-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+/* 화살표 애니메이션 */
+
+.moving-element {
+  position: relative; /* 요소의 위치를 상대적으로 설정 */
+  animation: move-up-down 1.7s ease-in-out infinite; /* 애니메이션 적용 */
+}
+
+@keyframes move-up-down {
+  0% {
+    top: 0; /* 시작 위치 */
+  }
+  50% {
+    top: 20px; /* 중간 위치 */
+  }
+  100% {
+    top: 0; /* 끝 위치 */
+  }
+}
