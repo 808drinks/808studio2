@@ -418,7 +418,7 @@ body {
         font-size: 1rem;
         color : white;
         padding: 3rem 0px;
-        padding-left : 50px;
+        padding-left : 2rem;
         width: 100%;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
@@ -432,7 +432,7 @@ body {
         font-size: 1rem;
         color : white;
         padding: 3rem 0px;
-        padding-right : 50px;
+        padding-right : 2rem;
         width: 100%;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         text-align: right;
@@ -595,7 +595,7 @@ body {
     align-items: top;
     justify-content: space-around;
     width: 100vw;
-    font-size: 30px;
+    font-size: 1.3rem;
     font-weight: 200;
     color: white;
     margin-bottom : 6vw;
@@ -621,15 +621,15 @@ body {
 }
 
 .padding-top-25px {
-    padding-top: 25px;
+    padding-top: 1rem;
 }
 
 .padding-bottom-25px {
-    padding-bottom: 25px;
+    padding-bottom: 1rem;
 }
 
 .margin-bottom-25px {
-    padding-bottom: 25px;
+    padding-bottom: 1rem;
 }
 
 
@@ -658,17 +658,17 @@ body {
 }
 
 .font-size-24px {
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 999px) {
     .intro-test-event-block {
-        font-size: 24px;
-        margin-bottom: 25px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 
     .font-size-24px {
-        font-size: 18px;
+        font-size: 0.6rem;
     }
 }
 
@@ -704,7 +704,7 @@ body {
     .intro-text9 {
         font-weight: 500;
         z-index: 300;
-        font-size: 48px;
+        font-size: 2rem;
         color : white;
         padding: 60px 0px 25px 0px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -717,7 +717,7 @@ body {
     .intro-text9 {
         font-weight: 500;
         z-index: 300;
-        font-size: 36px;
+        font-size: 1.3rem;
         color : white;
         padding: 60px 0px 25px 0px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -742,7 +742,7 @@ body {
     bottom : 20px;
     left : 20px;
     color : white ;
-    font-size: 16px;
+    font-size: 0.6rem;
     z-index: 300;
     font-weight: 200;
   }
@@ -798,4 +798,8 @@ body {
 
 .margin-bottom-5rem {
     padding-bottom :5rem;
+}
+
+.margin-bottom-10rem {
+    margin-bottom: 10rem;
 }
