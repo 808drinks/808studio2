@@ -1,0 +1,775 @@
+
+.block2 {
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    margin : 0px;
+    padding : 0px;
+    background-color: #240E32;
+}
+
+
+
+.intro-back {
+    background-image: url("../intro-img/main-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro {
+        height: 1080vh;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .intro {
+        height: 1000vh;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 999px) {
+    .intro {
+        height: 920vh;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 899px) {
+    .intro {
+        height: 860vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 849px) {
+    .intro {
+        height: 1100vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .intro {
+        height: 1510vh;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 699px) {
+    .intro {
+        height: 1430vh;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 679px) {
+    .intro {
+        height: 1500vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 649px) {
+    .intro {
+        height: 1460vh;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 599px) {
+    .intro {
+        height: 1400vh;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 539px) {
+    .intro {
+        height: 1420vh;
+    }
+}
+
+@media screen  and (max-width: 499px) {
+    .intro {
+        height: 1380vh;
+    }
+}
+
+
+.intro-inner {
+    display: flex;
+    position : absolute;
+    top : 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+}
+
+/* 반응형 디자인*/
+  
+@media screen and (min-width: 1000px) {
+    .intro-text1 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 250px;
+        width: 100%;
+        padding-left : 110px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text1 {
+        font-weight: 500;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 250px;
+        width: 100%;
+        padding-left : 30px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .intro-text2 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text2 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text3 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 24px;
+        display: flex;
+        width: 190px;
+        justify-content: space-between;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text3 {
+        font-weight: 50;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        margin-top : 24px;
+        padding : 10px;
+        display: flex;
+        width: 190px;
+        justify-content: space-between;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text4 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text4 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text5 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding-top : 80px;
+        padding-bottom : 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text5 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding-top : 80px;
+        padding-bottom : 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+.intro-photo-computer {
+    padding-top : 80px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100vw;
+    padding : 80px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-computer img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+  }
+
+.intro-photo-mobile {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100vw;
+    padding : 30px 30px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-mobile img {
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+@media screen and (min-width: 769px) {
+    .intro-photo-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-photo-computer {
+        display: none;
+    }
+}
+
+
+.intro-photo-coupon-computer {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 60vw;
+    padding : 30px 60px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-coupon-computer img {
+    width: 98%;
+    max-width: 1200px;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+
+.intro-photo-coupon-mobile {
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 98vw;
+    padding : 30px 60px;
+    box-sizing: border-box;
+  }
+  
+.intro-photo-coupon-mobile img {
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+    padding: 36px 0px;
+  }
+
+@media screen and (min-width: 769px) {
+    .intro-photo-coupon-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-photo-coupon-computer {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .intro-text6 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text6 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+.bottom-padding-30px {
+    padding-bottom: 30px;
+}
+
+.intro-text-selfinterior {
+    font-weight: 200;
+    z-index : 300;
+    font-size : 16px;
+    color : white ;
+    padding : 18px 0px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    text-align: right;
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text7 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text7 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        padding-left : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-text8 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 80px 0px;
+        padding-right : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: right;
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text8 {
+        font-weight: 200;
+        z-index: 300;
+        font-size: 24px;
+        color : white;
+        padding: 80px 0px;
+        padding-right : 50px;
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: right;
+
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .intro-computer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .intro-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .intro-mobile-big {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .intro-mobile-small {
+        display: none;
+    }
+}
+
+
+
+.bold-text {
+    font-weight: 600;
+}
+
+
+/* Scroll Animation (sa, 스크롤 애니메이션) */
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+/* 아래에서 위로 페이드 인 */
+.sa-up {
+    transform: translate(0, 100px);
+}
+
+      /* 위에서 아래로 페이드 인 */
+      .sa-down {
+        transform: translate(0, -100px);
+      }
+      /* 왼쪽에서 오른쪽으로 페이드 인 */
+      .sa-right {
+        transform: translate(-100px, 0);
+      }
+      /* 오른쪽에서 왼쪽으로 페이드 인 */
+      .sa-left {
+        transform: translate(100px, 0);
+      }
+      /* 왼쪽으로 회전하면서 페이드 인 */
+      .sa-rotateL {
+        transform: rotate(180deg);
+      }
+      /* 오른쪽으로 회전하면서 페이드 인 */
+      .sa-rotateR {
+        transform: rotate(-180deg);
+      }
+      /* 작아진 상태에서 커지면서 페이드 인 */
+      .sa-scaleUp {
+        transform: scale(.5);
+      }
+      /* 커진 상태에서 작아지면서 페이드 인 */
+      .sa-scaleDown {
+        transform: scale(1.5);
+      }
+
+.sa.show {
+    opacity: 1;
+    transform: none;
+}
+
+
+/* 기본 나타나기 애니메이션 */
+@keyframes slide-down {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-down {
+    animation-name: slide-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+/* 화살표 애니메이션 */
+
+.moving-element {
+  position: relative; /* 요소의 위치를 상대적으로 설정 */
+  animation: move-up-down 1.7s ease-in-out infinite; /* 애니메이션 적용 */
+}
+
+@keyframes move-up-down {
+  0% {
+    top: 0; /* 시작 위치 */
+  }
+  50% {
+    top: 20px; /* 중간 위치 */
+  }
+  100% {
+    top: 0; /* 끝 위치 */
+  }
+}
+
+/* 카카오챗 버튼 꾸미기 */
+
+.intro-kakaochat-button {
+    display: flex;
+    position: fixed;
+    bottom : 60px;
+    right : 30px;
+    z-index: 1000;
+}
+
+/* 카톡상담 반응형 설정 현재 미적용*/
+/*@media screen and (max-width: 768px) {
+    .button-sizing {
+        transform: scale(1.4);
+        bottom : 70px;
+        right : 70px;
+  }
+}*/
+
+.intro-test-event {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    margin-bottom : 6vw;
+
+}
+
+.intro-test-event-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 40%;
+    padding : 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.intro-test-event-block img {
+    width: 100%;
+}
+
+.padding-25px {
+    padding: 25px 0px;
+}
+
+.padding-top-25px {
+    padding-top: 25px;
+}
+
+.padding-bottom-25px {
+    padding-bottom: 25px;
+}
+
+.margin-bottom-25px {
+    padding-bottom: 25px;
+}
+
+
+
+@media screen and (max-width: 1299px) {
+    .wid-1300up {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .wid-1300down {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .event-1200 {
+        display: none;
+    }
+}
+
+.padding-top-5px{
+    padding-top : 5px;
+}
+
+.font-size-24px {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 999px) {
+    .intro-test-event-block {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .font-size-24px {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-test-event {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .intro-test-event-block {
+        width: 95%;
+    }
+
+}
+
+
+.font-size-24px {
+    font-size: 24px;
+}
+
+.width-110 {
+    width: 110%;
+}
+
+.margin-top-120px {
+    margin-top : 120px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .intro-text9 {
+        font-weight: 500;
+        z-index: 300;
+        font-size: 48px;
+        color : white;
+        padding: 60px 0px 25px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro-text9 {
+        font-weight: 500;
+        z-index: 300;
+        font-size: 36px;
+        color : white;
+        padding: 60px 0px 25px 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        width: 100vw;
+
+    }
+}
+
+.padding-bottom-120px {
+    padding-bottom:120px;
+}
+
+.home-inner-business {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    position : absolute;
+    bottom : 20px;
+    left : 20px;
+    color : white ;
+    font-size: 16px;
+    z-index: 300;
+    font-weight: 200;
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro-text1 {
+        font-size: 20px;
+    }
+    .intro-text2 {
+        font-size: 20px;
+    }
+    .intro-text3 {
+        font-size: 20px;
+    }
+    .intro-text4 {
+        font-size: 20px;
+    }
+    .intro-text5 {
+        font-size: 20px;
+    }
+    .intro-text6 {
+        font-size: 20px;
+    }
+    .intro-text7 {
+        font-size: 20px;
+    }
+    .intro-text8 {
+        font-size: 20px;
+    }
+    .intro-text9 {
+        font-size: 20px;
+    }
+    .intro-text10 {
+        font-size: 20px;
+    }
+    .intro-text11 {
+        font-size: 20px;
+    }
+    .intro-text12 {
+        font-size: 20px;
+    }
+    .intro-test-event {
+        font-size: 20px;
+    }
+    .font-size-24px {
+        font-size: 16px;
+    }
+    .intro-test-event {
+        margin-bottom : 0vw;
+    }
+
+}
