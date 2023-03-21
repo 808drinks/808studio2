@@ -1,87 +1,31 @@
 
 
-@media screen and (min-width: 1200px) {
-    .fac {
-        height: 1220vh;
-    }
-}
 
-@media screen and (min-width: 1100px) and (max-width: 1199px)  {
-    .fac {
-        height: 1060vh;
-    }
-}
 
-@media screen and (min-width: 1000px) and (max-width: 1099px)  {
-    .fac {
-        height: 1030vh;
-    }
-}
-
-@media screen and (min-width: 900px) and (max-width: 999px)  {
-    .fac {
-        height: 990vh;
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 899px)  {
-    .fac {
-        height: 910vh;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 799px)  {
-    .fac {
-        height: 860vh;
-    }
-}
-
-@media screen and (min-width: 700px) and (max-width: 768px)  {
-    .fac {
-        height: 2200vh;
-    }
-}
-
-@media screen and (min-width: 640px) and (max-width: 699px)  {
-    .fac {
-        height: 2180vh;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 639px)  {
-    .fac {
-        height: 2130vh;
-    }
-}
-
-@media screen and (min-width: 550px) and (max-width: 599px)  {
-    .fac {
-        height: 2020vh;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 549px)  {
-    .fac {
-        height: 1900vh;
-    }
-}
-
-@media screen and (max-width: 499px)  {
-    .fac {
-        height: 1760vh;
-    }
-}
 
 .fac-inner {
     display: flex;
     position : absolute;
     top : 0px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: bottom;
-    margin-top : 7rem;
+    padding-top : 7rem;
+    background-image: url('../intro-img/main-bg.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+
+.fac-inner-bg {
+    display: flex;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 0;
 }
 
 .fac-inner-title1 {
@@ -93,6 +37,7 @@
     font-weight: 500;
     color : white;
     margin-bottom : 0.5rem;
+    z-index: 1;
 }
 
 .fac-inner-title1-sub {
@@ -104,6 +49,8 @@
     font-weight: 200;
     color : white;
     margin-bottom : 0.5rem;
+    z-index: 1;
+
 }
 
 .fac-inner-title2 {
@@ -118,6 +65,8 @@
     margin-top : 1rem;
     margin-bottom : 0.9rem;
     margin-left : 2.1rem;
+    z-index: 1;
+
 }
 
 
@@ -130,6 +79,8 @@
     margin : 0px 1rem;
     padding : 0.6rem;
     margin-bottom : 2.8rem;
+    z-index: 1;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -152,6 +103,8 @@
     color : white;
     padding : 0.6rem;
     background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+
 }
 .fac-inner-photoblock img {
     width: 100%;
@@ -190,6 +143,10 @@
 
 .margin-bottom-50px {
     margin-bottom: 2rem;
+}
+
+.margin-top-50px {
+    margin-top: 2rem;
 }
 
 .margin-bottom-75px {

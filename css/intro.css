@@ -2,20 +2,21 @@ body {
     background-color: #240E32;
 }
 
+
+
 .block2 {
     display: block;
+    position : absolute;
+    top:0px;
     width: 100vw;
-    min-height: 100vh;
-    margin : 0px;
-    padding : 0px;
-
+    height: fit-content;
 }
 
 
 .intro {
     display: block;
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .bg-color-2 {
@@ -113,11 +114,21 @@ body {
     display: flex;
     position : absolute;
     top : 0px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: bottom;
+    background-image: url('../intro-img/main-bg.jpg');
+    background-size: cover;
+}
+.intro-inner-bg {
+    display: flex;
+    position: absolute;
+    top : 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
 }
 
 /* 반응형 디자인*/
@@ -610,6 +621,8 @@ body {
     width: 40%;
     padding : 10px;
     background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+
 }
 
 .intro-test-event-block img {
@@ -794,6 +807,12 @@ body {
         margin-bottom : 0vw;
     }
 
+}
+
+@media screen and (min-width : 769px){
+    .margin-bottom-10rem-sub {
+        margin-bottom: 10rem;
+    } 
 }
 
 .margin-bottom-5rem {

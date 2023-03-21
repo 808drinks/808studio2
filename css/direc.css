@@ -1,4 +1,4 @@
-.direc-back {
+.direc-back { 
     background-image: url("../intro-img/main-bg.jpg");
     background-size: cover;
     width: 100%;
@@ -12,23 +12,6 @@
     }
 }
 
-@media screen and (min-width: 820px) and (max-width: 1199px)  {
-    .direc {
-        height: 230vh;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 819px)  {
-    .direc {
-        height: 330vh;
-    }
-}
-
-@media screen and (max-width: 499px)  {
-    .direc {
-        height: 280vh;
-    }
-}
 
 
 
@@ -36,12 +19,25 @@
     display: flex;
     position : absolute;
     top : 0px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: bottom;
-    margin-top : 6rem;
+    padding-top : 7rem;
+    background-image: url('../intro-img/main-bg.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+
+.direc-inner-bg {
+    display: flex;
+    position: absolute;
+    top : 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 0;
 }
 
 .direc-inner-title {
@@ -53,6 +49,8 @@
     font-weight: 500;
     color : white;
     margin-bottom : 0.5rem;
+    z-index: 1;
+
 }
 
 .direc-inner-naver-map {
@@ -67,8 +65,11 @@
     justify-content: right;
     align-items: center;
     text-align: right;
-    margin-bottom :0.4rem;
-    margin-top : 1.2rem;
+    margin-top : 1rem;
+    padding : 0px 1rem;
+    transform : translateY(0.7rem);
+    z-index: 1;
+
 }
 
 .direc-inner-title-photo {
@@ -79,6 +80,8 @@
     align-items: center;
     justify-content: center;
     padding : 0px 1rem 1rem 1rem;
+    z-index: 1;
+
 }
 
 .direc-inner-title-photo img {
@@ -96,6 +99,8 @@
     align-items: center;
     padding : 0.6rem;
     margin : 2.8rem 0px;
+    z-index: 1;
+
 }
 
 
@@ -109,6 +114,8 @@
     margin : 0.6rem;
     padding : 0.6rem;
     background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+
 
 }
 
@@ -130,6 +137,8 @@
     color : white;
     text-align: left;
     margin-bottom : 0.4rem;
+    z-index: 1;
+
 }
 
 .direc-inner-block-title-sub {
@@ -139,6 +148,8 @@
     color : white;
     text-align: left;
     margin-bottom : 0.4rem;
+    z-index: 1;
+
 }
 
 .direc-inner-block img {
